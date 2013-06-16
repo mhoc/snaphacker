@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/snap_list_item_image"
+        android:layout_height="70dp"
+        android:layout_width="40dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/snap_list_item_text"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_toLeftOf="@+id/snap_list_item_delete"
+        android:layout_toRightOf="@+id/snap_list_item_image"
+        android:textSize="15dp"
+        />
+
+</RelativeLayout>

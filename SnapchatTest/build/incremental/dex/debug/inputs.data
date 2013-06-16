@@ -1,0 +1,18 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1371338829628 400 f68338a5c2bb921028dbeffc0251a5b4f686d2bf C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\R$menu.class
+1371338829633 717 1f96592dd91421c8bfc00fa85cb9d8849db6ed64 C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\R.class
+1371331072247 353 dd8f2425769d7c09326361a163616e5557004e06 C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\BuildConfig.class
+1371338829630 484 06113128f4d6010176d17e6fd8e045b2762b9279 C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\R$string.class
+1371237074959 484258 bd6479f5dd592790607e0504e66e0f31c2b4d308 C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\libs\android-support-v4.jar
+1371339941435 9261 26eeda23048a8b46e433cfd9cd2b16156daf40a1 C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\MainActivity.class
+1371331072240 352 1de990696a6ce9243f45c69489b9f55a14f1f388 C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\R$attr.class
+1371338829631 443 4770447d187f04099cbb96219b3a224599ec487c C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\R$style.class
+1371330878238 2189117 69e12f4c6aeac392555f1ea86fab82b5e5e31ad4 C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\libs\guava-14.0.1.jar
+1371334334077 484 7ded73cf9dd9e4dd713d4209a7c7cc659dbf134e C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\R$drawable.class
+1371338829609 2131 4c78931bb937ab212aa6df33f72a59968f9c2802 C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\SnapFileListAdapter.class
+1371331072241 473 c2c425167939f1d255cee3e99b2b57b3963c1e52 C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\R$dimen.class
+1371339361423 2184 f77fea88d2a5e40e7dee12d6cf8bfc5cbd90b870 C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\SnapImageAdapter.class
+1371338829625 573 85e6a297b8aeb5c4721d78f38a2c419b9394e2c2 C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\R$id.class
+1371338829626 453 480090a9c7b1f3661c46a7d85aba25a2a21a1d93 C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\classes\debug\com\mikedhock\snapfind\R$layout.class
