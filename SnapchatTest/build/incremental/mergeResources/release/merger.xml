@@ -104,6 +104,16 @@
                 path="C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\src\main\res\drawable-xhdpi\remove.png"
                 qualifiers="xhdpi"
                 type="drawable" />
+            <file
+                name="snap_context_menu"
+                path="C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\src\main\res\menu\snap_context_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="action_bar_settings"
+                path="C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\src\main\res\menu\action_bar_settings.xml"
+                qualifiers=""
+                type="menu" />
         </source>
         <source path="C:\Users\Michael\AndroidStudioProjects\SnapchatTestProject\SnapchatTest\build\res\rs\release" />
     </dataSet>

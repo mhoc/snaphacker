@@ -20,18 +20,16 @@ public final class R {
         public static final int remove=0x7f020002;
     }
     public static final class id {
-        public static final int action_menu_refresh=0x7f080004;
+        public static final int action_menu_refresh=0x7f080001;
         public static final int gridview=0x7f080000;
-        public static final int snap_list_item_delete=0x7f080003;
-        public static final int snap_list_item_image=0x7f080001;
-        public static final int snap_list_item_text=0x7f080002;
+        public static final int snap_context_menu_delete=0x7f080002;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int snap_list_item=0x7f030001;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int action_bar_settings=0x7f070000;
+        public static final int snap_context_menu=0x7f070001;
     }
     public static final class string {
         public static final int action_settings=0x7f050000;

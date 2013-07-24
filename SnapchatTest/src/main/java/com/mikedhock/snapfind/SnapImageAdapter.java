@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
@@ -12,12 +13,17 @@ import java.util.ArrayList;
 
 public class SnapImageAdapter extends BaseAdapter {
 
-    ArrayList<Bitmap> images;
     Context context;
+    GridView.LayoutParams layoutParams = new GridView.LayoutParams(360,640);
+    ArrayList<Bitmap> bitmaps;
 
-    public SnapImageAdapter(Context context, ArrayList<Bitmap> images) {
-        this.images = images;
+    public SnapImageAdapter(Context context, ArrayList<Snap> snapArray) {
         this.context = context;
+
+        bitmaps = new ArrayList<Bitmap>();
+        for (Snap s : snapArray) {
+            bitmaps.add(s.getCompressedImage());
+        }
     }
 
     public Object getItem(int i) {
@@ -29,7 +35,7 @@ public class SnapImageAdapter extends BaseAdapter {
     }
 
     public int getCount() {
-        return images.size();
+        return bitmaps.size();
     }
 
     @Override
@@ -38,14 +44,14 @@ public class SnapImageAdapter extends BaseAdapter {
 
         if (convertView == null) {
             iv = new ImageView(context);
-            iv.setLayoutParams(new GridView.LayoutParams(205,366));
+            iv.setLayoutParams(layoutParams);
             iv.setScaleType(ImageView.ScaleType.CENTER_CROP);
             iv.setPadding(8,8,8,8);
         } else {
             iv = (ImageView) convertView;
         }
 
-        iv.setImageBitmap(images.get(position));
+        iv.setImageBitmap(bitmaps.get(position));
         return iv;
     }
 }

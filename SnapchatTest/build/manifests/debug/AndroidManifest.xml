@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="0.4" package="com.mikedhock.snapfind">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="0.5" package="com.mikedhock.snapfind">
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="16"/>
 
